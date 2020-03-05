@@ -1,0 +1,44 @@
+body{
+    background-color:#444444;
+}
+.jumbotron{
+    margin-top: 70px;
+    height:25em;
+    font-family: axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background-image: url('image/featured-image-1132x509.jpg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.container  .jumbotron h2{
+    color:white;
+    margin-left: 55%;
+}
+
+.container  .jumbotron h3{
+    color:white;
+    margin-left: 55%;
+}
+
+
+#plumbServiceAtAhmd{
+    color:white;
+}
+
+.container1,.container2,.container3{
+    margin:3% 12.5% 3% 12.5%;
+    padding:2%;
+    font-family: Amazon Ember, Helvetica, Arial, sans-serif;
+
+}
+a .container1,a .container2,a .container3{
+    color:black;
+    text-decoration: none;
+    
+}
+
+a:hover .container1,a:hover .container2,a:hover .container3{
+    text-decoration: none;
+    text-transform: none;
+    
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickFix/Professionals</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="professional.css">
+	
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-image: url('image/backprof.jpg'); background-repeat: no-repeat;">
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+				<a href="EasyFix.html" class="navbar-brand"><span>QuickFixLOGO</span></a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Our Story</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					
+					<li><a href="Login.html">Login/Signup</a></li>
+				</ul>
+			</div>
+		</div>
+
+		
+	</nav>
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1>QuickFix Professional Portal</h1>
+			<p>QuickFix is overwhelmed to have you as a part of the family</p>
+			<p><b>Join Now!</b></p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="contact">
+            <h3>Join by filling details</h3>
+            <!--TODO VALIDATION -->
+            	<form id="professionalForm">
+					<div class="form-row">
+						<label for="name">Name</label>
+						<input type="text" class="form-control" id="name" placeholder="Enter your name" required>					</div>
+					</div>
+					<div class="form-group col-md-6">
+						<label for="storename">Store name</label>
+						<input type="text" class="form-control" id="storename" placeholder="Enter store name" required>
+					</div>
+						
+					<div class="form-group col-md-6">
+						<label for="phonenumber">Phone Number</label>
+						<input type="text" maxlength="10" class="form-control" id="phonenumber" placeholder="Enter phone number" required>
+					</div>
+					
+				
+					<div class="form-group col-md-6">
+						<label for="email">Email</label>
+						<input type="email" class="form-control" id="email" placeholder="Email" required>
+					</div>
+					
+					<div class="form-group col-md-6">
+					<div class="form-group">
+					    <label for="inputAddress">Address</label>
+					    <input type="textarea" class="form-control" id="inputAddress" placeholder="1234 Main St" rows="12" cols="22" required>
+					</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Join</button>
+				
+            	</form>
+        </div>
+	</div>
+	<center>
+		<p>
+
+			<div id="scorelist" style="display: flex; flex-direction: column; flex-wrap: nowrap;">
+				
+				
+				
+			</div>
+		</p>
+	</center>	
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	
+	
+	<script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	 https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-auth.js"></script>
+	<script src="p5.js"></script>
+	<script src="sketch.js"></script>
+	<script src="p5.dom.js"></script> 
+	<script src="professional.js"></script>
+	
+
+</body>
+</html>

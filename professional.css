@@ -1,0 +1,10 @@
+.container .jumbotron{
+    background-image: url('image/backprof.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    color: whitesmoke;
+    height:25em;
+    font-family: axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif
+        
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" integrity="sha256-a2tobsqlbgLsWs7ZVUGgP5IvWZsx8bTNQpzsqCSm5mk=" crossorigin="anonymous" />
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="brand"><span>QuickFix</span> Services</h1>
+
+    </div>
+    <div class="wrapper">
+        <div class="company-info">
+            <h3>QuickFix Services</h3>
+            <ul>
+                <li>Contact us at</li>
+                <a href=""><li>services.quickfix@gmail.com</li></a>
+            </ul>
+        </div>
+        <div class="contact">
+            <h3>SignUp</h3>
+            <!--TODO VALIDATION -->
+            <form id="contactForm">
+                
+                <p>
+                    <label>Email</label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p class="full">
+                    <label>Password</label>
+                    <input type="password" name="password" id="password" minlength="6" required>
+                </p>
+                <p class="full">
+                    <button type="submit" onclick="return validateEmail()"><a href="EasyFix.html">  LogIn </a></button>
+                </p>
+
+
+            </form>
+        </div>
+        <a href="sup.html" style="text-decoration: none; color: whitesmoke; font-family: Arial, Helvetica, sans-serif;">New user?</a>
+    </div>
+
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.0/firebase-auth.js"></script>
+
+    <script src="Login.js"></script>
+</body>
+</html>
